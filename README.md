@@ -1,5 +1,5 @@
-# terraform-vpc-may
-
+## terraform-vpc-may
+```hcl
 module "may" {
   source  = "abdy1988/may/vpc"
   version = "2.0.0"
@@ -9,3 +9,4 @@ module "may" {
   subnet3_cidr = "172.31.3.0/24"
   vpc_name = "kaizen"
   }
+  ```
